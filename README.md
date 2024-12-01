@@ -1,8 +1,8 @@
-# [An R package `PiP`](https://github.com/23verse/PiP)
+# [An R package `PI4Medicine`](https://github.com/23verse/PI4Medicine)
 
 ## @ Overview
 
-> The `PiP` is an R package introducing protocol for the software suite centering on Pi.
+> The `PI4Medicine` is an R package introducing protocol for the software suite centering on Pi.
 
 ## @ Installation
 
@@ -37,11 +37,11 @@ if(!("BiocManager" %in% rownames(installed.packages()))) install.packages("BiocM
 # first, install basic packages: remotes, tidyverse
 BiocManager::install(c('remotes','tidyverse'), dependencies=T)
 
-# then, install the package 'PiP' (now hosted at github)
-BiocManager::install("23verse/PiP", dependencies=T, force=T)
+# then, install the package 'PI4Medicine' (now hosted at github)
+BiocManager::install("23verse/PI4Medicine", dependencies=T, force=T)
 
-# check the package 'PiP' successfully installed
-library(help=PiP)
+# check the package 'PI4Medicine' successfully installed
+library(help=PI4Medicine)
 ```
 
 
